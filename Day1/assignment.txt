@@ -1,0 +1,41 @@
+Q) Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data
+   types. Explain with some examples.
+A) A Data type is used to define the type of a variable and determines what type of variable can be stored. It specifies the size of the memory allocated and what operations can be performed on the data.
+   Data types can be classified into two types Primitive Data types and Non-Primitive Data types 
+   1.Primitive Data types: Primitive data types are basic data types that are not objects and are immutable(unchangeable). It stors the single values. JavaScript has 7 Primitive data types
+    1. String: Represents a sequence of characters enclosed in either single or double quotes or backticks(template literals ``).
+      Ex: var userN="Sakshi";
+          let greeting='hello';
+          let rup=`120cr`;
+    2.Number:Represents  integer,decimal, floating-point, exponential numbers.....etc
+    Ex: let age=25;
+         let price=10.99;
+         let num=10e3;
+    3.Boolean:Represents a logical value that can be either true or false.
+    Ex: let pos=true;
+        let neg=false;
+    4.Undefined:Represents a variable that has been declared but not assigned a value. It is the default value for uninitialized variables.
+    Ex: let x;
+    5.Null:Represents the absence of any value or object or empty space.
+    Ex: let a=null;
+    6.BigInt:Represents integers that are too large for the Number type (e.g., numbers larger than 2^53 - 1).
+    Ex: let largeNumber = 9007199254740991n; 
+    7.Symbol (new in ES6):Represents a unique and immutable value, often used for object properties that should not be overwritten.
+    Ex: const uniqueID = Symbol("id");
+    
+2.Non-Primitive Data Types: are objects that can store collections of values and more come data structures.They are mutable(changeable).
+    Non-Primitive data types are class, object, functions, arrays, math, date, json...
+    1. Object:Represents a collection of key-value pairs (also known as properties or fields).
+    Ex: let person = {
+          name: "Alice",
+          age: 25,
+          isActive: true
+        };  
+    2. Array:A special type of object that stores ordered collections of values, which can be of any data type.
+    Ex: let colors = ["red", "blue", "green"];
+    3.Function:In JavaScript, functions are first-class objects, meaning they can be stored in variables, passed as arguments, and returned from other functions.
+    Ex: function greet() {
+           console.log("Hello, World!");
+        }  
+
+       
