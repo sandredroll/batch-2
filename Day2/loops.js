@@ -14,6 +14,4 @@ let a=Number(prompt("enter the factorial value:"))
     for(let i=1; i<=a; i++){
         mul *= i
 }
-    console.log("return:"+mul
-
-    );
+    console.log("return:"+mul);
