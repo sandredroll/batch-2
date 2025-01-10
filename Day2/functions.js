@@ -18,3 +18,5 @@ console.log(x(5,5));
 
 let y=(a,b) => a+b;
 console.log(y(100,200));
+
+
