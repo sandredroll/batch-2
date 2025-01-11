@@ -30,3 +30,4 @@ function z(){
 }
 z();
 //console.log(z());   with solution also prints undefinied
+
